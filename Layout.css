@@ -1,0 +1,84 @@
+
+nav {
+    background-color:rgba(38,38,38,255);
+    height: 100px;
+    width: 100%;
+}
+a {
+    text-decoration:none;
+    color: white;
+    
+}
+nav ul li {
+    list-style: none;
+    margin-right:100px;
+    display: inline;
+
+}
+nav ul li img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: -100px; 
+}
+nav ul {
+    margin-left: 150px;
+}
+.background {
+    overflow:hidden;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+#lifter {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+#playbutton {
+    width: 60px;
+    height: 60px;
+    }
+#playbutton-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#playbuttonText {
+    color: white;
+    margin-left: 20px;
+
+}
+#getfit, #sports {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+#getfit {
+    font-size: 128px;
+}
+#sports {
+    margin-top: -100px;
+}
+.services-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.service {
+    width:300px;
+    height: 100%;
+    color: white;
+    margin: auto;
+    background-color: teal;
+    padding: 42px;
+    
+}
+#service1 {
+    ;
+}
+.service h2 {
+    font-size: 32px;
+}
